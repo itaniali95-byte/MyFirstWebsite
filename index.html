@@ -1,25 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>My First Website</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<img src="profile.jpeg" alt="Profile Picture">
+    <nav>
+        <h2>Ali's Website</h2>
 
-<h1>Welcome to My Website 👋</h1>
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
 
-<p id="message">Hi! My name is Ali.</p>
 
-<p>I am learning HTML, CSS and JavaScript.</p>
+    <section id="home">
 
-<button onclick="hello()">Click Me</button>
+        <img src="images/profile.jpeg" alt="Profile Picture">
 
-<script src="script.js"></script>
+        <h1>Welcome to My Website 👋</h1>
+
+        <p id="message">
+            Hi! My name is Ali.
+        </p>
+
+        <p class="intro">
+            I'm learning Web Development and building my own websites.
+        </p>
+
+        <button onclick="hello()">Click Me</button>
+
+        <button onclick="showMessage()">Learn More</button>
+
+    </section>
+
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I'm Ali, a beginner Web Developer.
+            I'm learning HTML, CSS and JavaScript
+            and building my own websites.
+        </p>
+
+    </section>
+
+
+    <section id="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill">
+                <h3>HTML</h3>
+                <p>Building the structure of websites.</p>
+            </div>
+
+            <div class="skill">
+                <h3>CSS</h3>
+                <p>Designing beautiful and modern websites.</p>
+            </div>
+
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <p>Adding interactions and functionality.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>
+            Want to get in touch? Click the button below!
+        </p>
+
+        <button onclick="contactMe()">Contact Me</button>
+
+        <br><br>
+
+        <a href="mailto:itaniali95@gmail.com" class="contact-button">
+            Send Me an Email 📩
+        </a>
+
+    </section>
+
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
