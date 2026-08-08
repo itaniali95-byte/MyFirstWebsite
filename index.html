@@ -2,105 +2,784 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My First Website</title>
+    <title>Ali | Web Developer</title>
 
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <nav>
-        <h2>Ali's Website</h2>
+    <!-- BACKGROUND -->
 
-        <div>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
+    <div class="background">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+        <div class="grid"></div>
+    </div>
+
+
+    <!-- NAVBAR -->
+
+    <header>
+
+        <nav>
+
+            <a href="#home" class="logo">
+                ALI<span>.</span>
+            </a>
+
+            <div class="nav-links">
+
+                <a href="#home">Home</a>
+
+                <a href="#about">About</a>
+
+                <a href="#skills">Skills</a>
+
+                <a href="#projects">Projects</a>
+
+                <a href="#gaming">Gaming</a>
+
+                <a href="#contact">Contact</a>
+
+            </div>
+
+            <button id="theme-toggle">
+                🌙
+            </button>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- HERO -->
+
+    <main>
+
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <div class="status">
+
+                    <span class="status-dot"></span>
+
+                    Available for learning & creating
+
+                </div>
+
+
+                <p class="small-title">
+                    HELLO, I'M
+                </p>
+
+
+                <h1>
+                    Ali<span>.</span>
+                </h1>
+
+
+                <h2>
+                    <span id="typing"></span>
+                </h2>
+
+
+                <p class="hero-text">
+
+                    I build modern websites, experiment with
+                    technology and turn ideas into digital experiences.
+
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="primary-btn">
+                        Explore My Work →
+                    </a>
+
+                    <a href="#contact" class="secondary-btn">
+                        Let's Talk
+                    </a>
+
+                </div>
+
+
+                <div class="hero-tech">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <div class="image-ring"></div>
+
+                <img
+                    src="images/profile.jpeg"
+                    alt="Ali's Profile"
+                >
+
+                <div class="floating-card card-one">
+                    💻 Coding
+                </div>
+
+                <div class="floating-card card-two">
+                    🎮 Gaming
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ABOUT -->
+
+        <section id="about" class="section">
+
+            <div class="section-heading">
+
+                <span>01 — ABOUT</span>
+
+                <h2>
+                    A little bit <strong>about me.</strong>
+                </h2>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-main">
+
+                    <h3>
+                        Learning. Building. Improving.
+                    </h3>
+
+                    <p>
+
+                        I'm Ali, a beginner Web Developer who
+                        enjoys learning how websites work and
+                        creating my own digital projects.
+
+                    </p>
+
+                    <p>
+
+                        I'm currently learning HTML, CSS and
+                        JavaScript while experimenting with
+                        different designs and ideas.
+
+                    </p>
+
+                </div>
+
+
+                <div class="about-box">
+
+                    <span class="box-icon">🚀</span>
+
+                    <h3>
+                        Always Building
+                    </h3>
+
+                    <p>
+                        New ideas, new projects and new skills.
+                    </p>
+
+                </div>
+
+
+                <div class="about-box">
+
+                    <span class="box-icon">⚡</span>
+
+                    <h3>
+                        Curious Mind
+                    </h3>
+
+                    <p>
+                        I like discovering how technology works.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- SKILLS -->
+
+        <section id="skills" class="section">
+
+            <div class="section-heading">
+
+                <span>02 — SKILLS</span>
+
+                <h2>
+                    What I'm <strong>learning.</strong>
+                </h2>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+
+                <div class="skill-card">
+
+                    <div class="skill-top">
+
+                        <span class="skill-number">
+                            01
+                        </span>
+
+                        <span class="skill-icon">
+                            HTML
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        HTML
+                    </h3>
+
+                    <p>
+                        Building the structure and foundation
+                        of modern websites.
+                    </p>
+
+                    <div class="skill-bar">
+                        <div style="width: 90%"></div>
+                    </div>
+
+                    <span class="percentage">
+                        90%
+                    </span>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-top">
+
+                        <span class="skill-number">
+                            02
+                        </span>
+
+                        <span class="skill-icon">
+                            CSS
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        CSS
+                    </h3>
+
+                    <p>
+                        Creating modern designs, animations
+                        and responsive layouts.
+                    </p>
+
+                    <div class="skill-bar">
+                        <div style="width: 80%"></div>
+                    </div>
+
+                    <span class="percentage">
+                        80%
+                    </span>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-top">
+
+                        <span class="skill-number">
+                            03
+                        </span>
+
+                        <span class="skill-icon">
+                            JS
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        JavaScript
+                    </h3>
+
+                    <p>
+                        Adding interaction and functionality
+                        to websites.
+                    </p>
+
+                    <div class="skill-bar">
+                        <div style="width: 60%"></div>
+                    </div>
+
+                    <span class="percentage">
+                        60%
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- PROJECTS -->
+
+        <section id="projects" class="section">
+
+            <div class="section-heading">
+
+                <span>03 — PROJECTS</span>
+
+                <h2>
+                    Things I've <strong>built.</strong>
+                </h2>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+
+                <article class="project">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <div class="project-icon">
+                        🌐
+                    </div>
+
+                    <h3>
+                        Personal Portfolio
+                    </h3>
+
+                    <p>
+                        A modern personal website designed
+                        to showcase my skills and projects.
+                    </p>
+
+                    <div class="tags">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+
+                    </div>
+
+                    <a href="#home">
+                        Explore →
+                    </a>
+
+                </article>
+
+
+                <article class="project featured">
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <div class="project-icon">
+                        🎮
+                    </div>
+
+                    <h3>
+                        Gaming Project
+                    </h3>
+
+                    <p>
+                        A futuristic gaming concept focused
+                        on interactive design and technology.
+                    </p>
+
+                    <div class="tags">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+
+                    </div>
+
+                    <a href="#gaming">
+                        Explore →
+                    </a>
+
+                </article>
+
+
+                <article class="project">
+
+                    <div class="project-number">
+                        03
+                    </div>
+
+                    <div class="project-icon">
+                        🛒
+                    </div>
+
+                    <h3>
+                        Ali Store
+                    </h3>
+
+                    <p>
+                        A concept gaming store for games,
+                        consoles and accessories.
+                    </p>
+
+                    <div class="tags">
+
+                        <span>Store</span>
+                        <span>Gaming</span>
+                        <span>Web</span>
+
+                    </div>
+
+                    <a href="#contact">
+                        Explore →
+                    </a>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- JOURNEY -->
+
+        <section class="section journey">
+
+            <div class="section-heading">
+
+                <span>04 — JOURNEY</span>
+
+                <h2>
+                    My journey <strong>so far.</strong>
+                </h2>
+
+            </div>
+
+
+            <div class="stats-grid">
+
+
+                <div class="stat">
+
+                    <strong>
+                        3+
+                    </strong>
+
+                    <span>
+                        Projects
+                    </span>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <strong>
+                        3
+                    </strong>
+
+                    <span>
+                        Technologies
+                    </span>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <strong>
+                        2026
+                    </strong>
+
+                    <span>
+                        Started Coding
+                    </span>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <strong>
+                        ∞
+                    </strong>
+
+                    <span>
+                        Ideas
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- TERMINAL -->
+
+        <section class="section terminal-section">
+
+            <div class="section-heading">
+
+                <span>05 — TERMINAL</span>
+
+                <h2>
+                    Inside my <strong>world.</strong>
+                </h2>
+
+            </div>
+
+
+            <div class="terminal">
+
+                <div class="terminal-top">
+
+                    <div class="terminal-dots">
+
+                        <i></i>
+                        <i></i>
+                        <i></i>
+
+                    </div>
+
+                    <span>
+                        ali@portfolio
+                    </span>
+
+                    <b>
+                        ● ONLINE
+                    </b>
+
+                </div>
+
+
+                <div class="terminal-content">
+
+                    <p>
+                        <em>ali@portfolio</em>:~$ whoami
+                    </p>
+
+                    <p class="terminal-result">
+                        Ali — Web Developer in progress 🚀
+                    </p>
+
+
+                    <p>
+                        <em>ali@portfolio</em>:~$ skills
+                    </p>
+
+                    <p class="terminal-result">
+                        HTML • CSS • JavaScript
+                    </p>
+
+
+                    <p>
+                        <em>ali@portfolio</em>:~$ interests
+                    </p>
+
+                    <p class="terminal-result">
+                        Technology • Gaming • Web Development
+                    </p>
+
+
+                    <p>
+                        <em>ali@portfolio</em>:~$ status
+                    </p>
+
+                    <p class="terminal-result">
+                        Learning. Building. Improving. ⚡
+                    </p>
+
+
+                    <p>
+                        <em>ali@portfolio</em>:~$
+                        <span class="cursor">▋</span>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- GAMING -->
+
+        <section id="gaming" class="section gaming-section">
+
+            <div class="section-heading">
+
+                <span>06 — GAMING</span>
+
+                <h2>
+                    Beyond the <strong>code.</strong>
+                </h2>
+
+            </div>
+
+
+            <div class="gaming-grid">
+
+
+                <div class="gaming-card">
+
+                    <span>
+                        🎮
+                    </span>
+
+                    <h3>
+                        PlayStation
+                    </h3>
+
+                    <p>
+                        Gaming and discovering new experiences.
+                    </p>
+
+                </div>
+
+
+                <div class="gaming-card">
+
+                    <span>
+                        ⚽
+                    </span>
+
+                    <h3>
+                        Football
+                    </h3>
+
+                    <p>
+                        Football games and competitive matches.
+                    </p>
+
+                </div>
+
+
+                <div class="gaming-card">
+
+                    <span>
+                        🏆
+                    </span>
+
+                    <h3>
+                        Competition
+                    </h3>
+
+                    <p>
+                        Always trying to improve and get better.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- CONTACT -->
+
+        <section id="contact" class="contact-section">
+
+            <div class="contact-content">
+
+                <span>
+                    07 — CONTACT
+                </span>
+
+                <h2>
+                    Let's build something <strong>cool.</strong>
+                </h2>
+
+                <p>
+                    Have an idea or just want to say hello?
+                    Feel free to get in touch.
+                </p>
+
+
+                <div class="contact-buttons">
+
+                    <a
+                        href="mailto:itaniali95@gmail.com"
+                        class="primary-btn"
+                    >
+                        Send Email →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-logo">
+            ALI<span>.</span>
         </div>
-    </nav>
-
-
-    <section id="home">
-
-       <img src="profile.jpeg" alt="Profile Picture">
-
-        <h1>Welcome to My Website 👋</h1>
-
-        <p id="message">
-            Hi! My name is Ali.
-        </p>
-
-        <p class="intro">
-            I'm learning Web Development and building my own websites.
-        </p>
-
-        <button onclick="hello()">Click Me</button>
-
-        <button onclick="showMessage()">Learn More</button>
-
-    </section>
-
-
-    <section id="about">
-
-        <h2>About Me</h2>
 
         <p>
-            I'm Ali, a beginner Web Developer.
-            I'm learning HTML, CSS and JavaScript
-            and building my own websites.
+            Built with HTML, CSS & JavaScript.
         </p>
-
-    </section>
-
-
-    <section id="skills">
-
-        <h2>My Skills</h2>
-
-        <div class="skills-container">
-
-            <div class="skill">
-                <h3>HTML</h3>
-                <p>Building the structure of websites.</p>
-            </div>
-
-            <div class="skill">
-                <h3>CSS</h3>
-                <p>Designing beautiful and modern websites.</p>
-            </div>
-
-            <div class="skill">
-                <h3>JavaScript</h3>
-                <p>Adding interactions and functionality.</p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <section id="contact">
-
-        <h2>Contact Me</h2>
 
         <p>
-            Want to get in touch? Click the button below!
+            © 2026 Ali
         </p>
 
-        <button onclick="contactMe()">Contact Me</button>
+    </footer>
 
-        <br><br>
 
-        <a href="mailto:itaniali95@gmail.com" class="contact-button">
-            Send Me an Email 📩
-        </a>
 
-    </section>
+    <!-- BACK TO TOP -->
+
+    <button id="back-top">
+        ↑
+    </button>
 
 
     <script src="script.js"></script>
